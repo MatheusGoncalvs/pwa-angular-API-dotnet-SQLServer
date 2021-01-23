@@ -1,0 +1,27 @@
+<div class="content">
+  <div class="btn-back">
+    <a (click)="voltarPaginaInicial()" mat-raised-button>Página inicial</a>
+  </div>
+  <div>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">Data do lote</th>
+          <th scope="col">Total de Produtos</th>
+          <th scope="col">Valor total do lote</th>
+          <th scope="col">Menor data de entrega</th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let lote of lotes">
+        <tr>
+          <th scope="row">{{lote.id}}</th>
+          <td>{{lote.dataImportacao | date}}</td>
+          <td>{{lote.totalProdutos}}</td>
+          <td>{{lote.valorTotal}}</td>
+          <td>{{lote.menorDataEntrega | date}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
