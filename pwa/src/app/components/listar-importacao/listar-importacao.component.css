@@ -1,7 +1,17 @@
-td.mat-cell, td.mat-footer-cell, th.mat-header-cell {
+td.mat-cell,
+td.mat-footer-cell,
+th.mat-header-cell {
     padding: 10px;
 }
 
 .btn-back {
     margin: 1rem 0;
+}
+
+td {
+    text-align: center;
+}
+
+td a i {
+    color: red;
 }

@@ -16,3 +16,12 @@ C:/Users/mathe/repos/api-teste/Reader.Core/obj/Debug/netcoreapp3.1/Reader.Core.p
 /home/matheus/repos/api-teste/Reader.Core/obj/Debug/netcoreapp3.1/Reader.Core.csproj.CoreCompileInputs.cache
 /home/matheus/repos/api-teste/Reader.Core/obj/Debug/netcoreapp3.1/Reader.Core.dll
 /home/matheus/repos/api-teste/Reader.Core/obj/Debug/netcoreapp3.1/Reader.Core.pdb
+/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Core/bin/Debug/netcoreapp3.1/Reader.Core.deps.json
+/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Core/bin/Debug/netcoreapp3.1/Reader.Core.dll
+/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Core/bin/Debug/netcoreapp3.1/Reader.Core.pdb
+/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Core/obj/Debug/netcoreapp3.1/Reader.Core.csprojAssemblyReference.cache
+/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Core/obj/Debug/netcoreapp3.1/Reader.Core.AssemblyInfoInputs.cache
+/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Core/obj/Debug/netcoreapp3.1/Reader.Core.AssemblyInfo.cs
+/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Core/obj/Debug/netcoreapp3.1/Reader.Core.csproj.CoreCompileInputs.cache
+/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Core/obj/Debug/netcoreapp3.1/Reader.Core.dll
+/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Core/obj/Debug/netcoreapp3.1/Reader.Core.pdb

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I+FKSuHbjzwwK5m3pnvreSJHTu0rmKQ+k0W1xebGZVPfVF+P3CzuyAAJ1y4qwTwLIUEV7juhxsqia+picvizmQ==",
+  "dgSpecHash": "5pokj137h8iZqDnJHnqrUwkIduoV2qZzccD4MGBw1shqceOAlbaQ+ZRRGZVjIRQkhiJIfxv0R464XFuNVBSyYg==",
   "success": true,
-  "projectFilePath": "/home/matheus/repos/api-teste/api/api.csproj",
+  "projectFilePath": "/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/api/api.csproj",
   "expectedPackageFiles": [
     "/root/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
     "/root/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.0/automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

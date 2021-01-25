@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QIees+F80RnJAhFkzGdlbvVWqm3+zVUWCoApVCMsJ0CJO+aQ7O1l6i6KZLwsVYuFUJfxsmezpWH+2CuetiPPBg==",
+  "dgSpecHash": "IChfYmgbYOu5SpNaLTTWxgGmx/Cf/EDO6cnKb8njlzaUVhwCuOFZmZ0AtMkZRdH/+2OIyTiCJxU0DlN+xQP1/g==",
   "success": true,
-  "projectFilePath": "/home/matheus/repos/api-teste/Reader.Core/Reader.Core.csproj",
+  "projectFilePath": "/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Core/Reader.Core.csproj",
   "expectedPackageFiles": [
     "/root/.nuget/packages/fluentvalidation/9.3.0/fluentvalidation.9.3.0.nupkg.sha512"
   ],

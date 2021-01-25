@@ -3575,11 +3575,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/matheus/repos/api-teste/Reader.Tests/Reader.Tests.csproj",
+      "projectUniqueName": "/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Tests/Reader.Tests.csproj",
       "projectName": "Reader.Tests",
-      "projectPath": "/home/matheus/repos/api-teste/Reader.Tests/Reader.Tests.csproj",
+      "projectPath": "/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Tests/Reader.Tests.csproj",
       "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/home/matheus/repos/api-teste/Reader.Tests/obj/",
+      "outputPath": "/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/root/.nuget/NuGet/NuGet.Config"
@@ -3593,8 +3593,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "/home/matheus/repos/api-teste/Reader.Domain/Reader.Domain.csproj": {
-              "projectPath": "/home/matheus/repos/api-teste/Reader.Domain/Reader.Domain.csproj"
+            "/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Domain/Reader.Domain.csproj": {
+              "projectPath": "/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Domain/Reader.Domain.csproj"
             }
           }
         }

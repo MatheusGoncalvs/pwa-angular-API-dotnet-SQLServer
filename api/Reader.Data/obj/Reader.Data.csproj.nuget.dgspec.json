@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/matheus/repos/api-teste/Reader.Data/Reader.Data.csproj": {}
+    "/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Data/Reader.Data.csproj": {}
   },
   "projects": {
-    "/home/matheus/repos/api-teste/Reader.Core/Reader.Core.csproj": {
+    "/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Core/Reader.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/matheus/repos/api-teste/Reader.Core/Reader.Core.csproj",
+        "projectUniqueName": "/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Core/Reader.Core.csproj",
         "projectName": "Reader.Core",
-        "projectPath": "/home/matheus/repos/api-teste/Reader.Core/Reader.Core.csproj",
+        "projectPath": "/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Core/Reader.Core.csproj",
         "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/home/matheus/repos/api-teste/Reader.Core/obj/",
+        "outputPath": "/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/root/.nuget/NuGet/NuGet.Config"
@@ -60,14 +60,14 @@
         }
       }
     },
-    "/home/matheus/repos/api-teste/Reader.Data/Reader.Data.csproj": {
+    "/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Data/Reader.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/matheus/repos/api-teste/Reader.Data/Reader.Data.csproj",
+        "projectUniqueName": "/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Data/Reader.Data.csproj",
         "projectName": "Reader.Data",
-        "projectPath": "/home/matheus/repos/api-teste/Reader.Data/Reader.Data.csproj",
+        "projectPath": "/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Data/Reader.Data.csproj",
         "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/home/matheus/repos/api-teste/Reader.Data/obj/",
+        "outputPath": "/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/root/.nuget/NuGet/NuGet.Config"
@@ -81,8 +81,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/home/matheus/repos/api-teste/Reader.Domain/Reader.Domain.csproj": {
-                "projectPath": "/home/matheus/repos/api-teste/Reader.Domain/Reader.Domain.csproj"
+              "/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Domain/Reader.Domain.csproj": {
+                "projectPath": "/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Domain/Reader.Domain.csproj"
               }
             }
           }
@@ -130,14 +130,14 @@
         }
       }
     },
-    "/home/matheus/repos/api-teste/Reader.Domain/Reader.Domain.csproj": {
+    "/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Domain/Reader.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/matheus/repos/api-teste/Reader.Domain/Reader.Domain.csproj",
+        "projectUniqueName": "/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Domain/Reader.Domain.csproj",
         "projectName": "Reader.Domain",
-        "projectPath": "/home/matheus/repos/api-teste/Reader.Domain/Reader.Domain.csproj",
+        "projectPath": "/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Domain/Reader.Domain.csproj",
         "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/home/matheus/repos/api-teste/Reader.Domain/obj/",
+        "outputPath": "/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/root/.nuget/NuGet/NuGet.Config"
@@ -151,8 +151,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/home/matheus/repos/api-teste/Reader.Core/Reader.Core.csproj": {
-                "projectPath": "/home/matheus/repos/api-teste/Reader.Core/Reader.Core.csproj"
+              "/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Core/Reader.Core.csproj": {
+                "projectPath": "/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Core/Reader.Core.csproj"
               }
             }
           }

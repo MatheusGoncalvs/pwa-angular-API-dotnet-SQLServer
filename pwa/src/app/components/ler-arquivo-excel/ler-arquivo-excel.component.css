@@ -4,12 +4,29 @@
 
 .title {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 2rem 0;
+    text-align: left;
+}
+
+.title h1 {
+    font-size: 20px;
+    color: #27ae60;
 }
 
 .content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.mat-icon {
+    cursor: pointer;
+}
+
+.form .mat-icon {
+    color: #f7d794;
+}
+
+.save-btn .mat-icon {
+    color: #596275;
 }

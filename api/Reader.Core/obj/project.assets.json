@@ -44,11 +44,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/matheus/repos/api-teste/Reader.Core/Reader.Core.csproj",
+      "projectUniqueName": "/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Core/Reader.Core.csproj",
       "projectName": "Reader.Core",
-      "projectPath": "/home/matheus/repos/api-teste/Reader.Core/Reader.Core.csproj",
+      "projectPath": "/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Core/Reader.Core.csproj",
       "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/home/matheus/repos/api-teste/Reader.Core/obj/",
+      "outputPath": "/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Core/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/root/.nuget/NuGet/NuGet.Config"

@@ -22,3 +22,15 @@ C:/Users/mathe/repos/api-teste/Reader.Domain/obj/Debug/netcoreapp3.1/Reader.Doma
 /home/matheus/repos/api-teste/Reader.Domain/obj/Debug/netcoreapp3.1/Reader.Domain.csproj.CopyComplete
 /home/matheus/repos/api-teste/Reader.Domain/obj/Debug/netcoreapp3.1/Reader.Domain.dll
 /home/matheus/repos/api-teste/Reader.Domain/obj/Debug/netcoreapp3.1/Reader.Domain.pdb
+/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Domain/bin/Debug/netcoreapp3.1/Reader.Domain.deps.json
+/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Domain/bin/Debug/netcoreapp3.1/Reader.Domain.dll
+/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Domain/bin/Debug/netcoreapp3.1/Reader.Domain.pdb
+/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Domain/bin/Debug/netcoreapp3.1/Reader.Core.dll
+/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Domain/bin/Debug/netcoreapp3.1/Reader.Core.pdb
+/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Domain/obj/Debug/netcoreapp3.1/Reader.Domain.csprojAssemblyReference.cache
+/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Domain/obj/Debug/netcoreapp3.1/Reader.Domain.AssemblyInfoInputs.cache
+/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Domain/obj/Debug/netcoreapp3.1/Reader.Domain.AssemblyInfo.cs
+/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Domain/obj/Debug/netcoreapp3.1/Reader.Domain.csproj.CoreCompileInputs.cache
+/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Domain/obj/Debug/netcoreapp3.1/Reader.Domain.csproj.CopyComplete
+/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Domain/obj/Debug/netcoreapp3.1/Reader.Domain.dll
+/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Domain/obj/Debug/netcoreapp3.1/Reader.Domain.pdb
