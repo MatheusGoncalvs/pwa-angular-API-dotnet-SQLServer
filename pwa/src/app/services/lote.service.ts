@@ -14,10 +14,19 @@ export class LoteService {
     private http: HttpClient
   ) { }
 
-  private lotesUrl = 'http://localhost:5001/api/produto/GetImportacoes';
+  private lotesUrl = 'http://localhost:5001/api/produto/importacoes';
+  private removeUrl = 'http://localhost:5001/api/produto/importacao';
 
   obterLotes(): Observable<Lote | LoteTrackerError> {
     return this.http.get<Lote>(this.lotesUrl)
+      .pipe(
+        retry(1),
+        catchError(error => this.handleHttpError(error))
+      );
+  }
+
+  removerLote(id: number): Observable<{} | LoteTrackerError> {
+    return this.http.delete(`${this.removeUrl}/${id}`)
       .pipe(
         retry(1),
         catchError(error => this.handleHttpError(error))

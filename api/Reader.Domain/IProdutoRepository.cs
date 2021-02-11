@@ -9,6 +9,7 @@ namespace Reader.Domain
         Task AdicionarLote(Lote lote);
         Task<List<Lote>> GetImportacoes();
         Task<List<Produto>> GetImportacao(int id);
+        Lote RemoverImportacao(int id);
         Task Commit();
     }
 }

@@ -104,5 +104,13 @@ namespace api.Services
 
             return true;
         }
+
+        public Lote RemoverImportacao(int id)
+        {
+            var lote = _produtoRepository.RemoverImportacao(id);
+            _produtoRepository.Commit();
+
+            return lote;
+        }
     }
 }

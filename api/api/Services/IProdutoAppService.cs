@@ -13,5 +13,6 @@ namespace api.Services
         Task<ValidationResult> AdicionarProdutos(IFormFile file);
         Task<List<LoteViewModel>> GetImportacoes();
         Task<List<ProdutoViewModel>> GetImportacao(int id);
+        Lote RemoverImportacao(int id);
     }
 }

@@ -31,6 +31,11 @@ namespace api
 
             services.AddScoped<IProdutoRepository, ProdutoRepository>();
 
+            services.AddControllersWithViews()
+                .AddNewtonsoftJson(options =>
+                options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+            );
+
             services.AddDbContext<ProdutoContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"), b => b.MigrationsAssembly("api")));
 
@@ -41,8 +46,9 @@ namespace api
                 options.AddDefaultPolicy(
                     builder =>
                     {
-                        builder.WithOrigins("http://localhost:8000", "https://localhost:8000", "http://localhost:4200", "http://localhost:8001");
-                        builder.AllowAnyHeader();
+                        builder.WithOrigins("http://localhost:8000", "https://localhost:8000", "http://localhost:4200", "http://localhost:8001")
+                        .AllowAnyHeader()
+                        .WithMethods("GET", "POST", "DELETE");
                     });
             });
         }

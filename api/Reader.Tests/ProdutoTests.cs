@@ -19,7 +19,7 @@ namespace Reader.Tests
         {
             //Arrange
             var produto = _produtoTestsFixture.GerarProdutoValido();
-            var valorTotal = 50;
+            var valorTotal = 64.8;
 
             //Act
             produto.CalcularValorTotal();

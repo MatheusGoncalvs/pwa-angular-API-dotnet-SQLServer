@@ -22,7 +22,7 @@
                     <td>{{lote.valorTotal}}</td>
                     <td>{{lote.menorDataEntrega | date}}</td>
                     <td>
-                        <a href="">
+                        <a (click)="removerLote(lote.id)">
                             <i class="fas fa-trash-alt"></i>
                         </a>
                     </td>

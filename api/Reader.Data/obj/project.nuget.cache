@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0MwgYNk7WVJIrJ8iDMRLYQMjML5RxeZ27+jGFgmEF+L6x7vAq2x/Gwt4yYY6xyhYUYacE1msti4P3h+UdhoABQ==",
+  "dgSpecHash": "QW1/SajSZDPHYCze3JBr92Nt/jSciioAeQ3Zyee52RIumuu3QfJet8oBa0zBMb00imjGqEPdDyxrZsjGPP4XDw==",
   "success": true,
   "projectFilePath": "/home/matheus/repos/pwa-angular-API-dotnet-SQLServer/api/Reader.Data/Reader.Data.csproj",
   "expectedPackageFiles": [

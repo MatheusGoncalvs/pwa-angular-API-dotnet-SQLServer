@@ -37,7 +37,8 @@ namespace Reader.Domain
 
         public double CalcularValorTotal()
         {
-            this.ValorTotal = Quantidade * ValorUnitario;
+            double valorTotal = Quantidade * ValorUnitario;
+            ValorTotal = Math.Round(valorTotal, 2);
             return ValorTotal;
         }
     }

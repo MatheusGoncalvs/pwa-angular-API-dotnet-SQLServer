@@ -31,5 +31,13 @@ namespace Reader.Data.Repository
         {
             return await _context.Lotes.ToListAsync();
         }
+
+        public Lote RemoverImportacao(int id)
+        {
+            var lote = _context.Lotes.Where(x => x.Id == id).FirstOrDefault();
+            _context.Remove(lote);
+
+            return lote;
+        }
     }
 }
