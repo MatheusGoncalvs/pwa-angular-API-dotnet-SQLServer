@@ -1,5 +1,7 @@
 import { Component, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 import { Router } from '@angular/router';
+import { EMPTY, Observable } from 'rxjs';
+import { catchError, tap } from 'rxjs/operators';
 import { Lote } from 'src/app/Models/Lote';
 import { LoteTrackerError } from 'src/app/Models/LoteTrackerError';
 import { LoteService } from 'src/app/services/lote.service';
@@ -9,39 +11,35 @@ import { LoteService } from 'src/app/services/lote.service';
   templateUrl: './listar-importacao.component.html',
   styleUrls: ['./listar-importacao.component.css']
 })
-export class ListarImportacaoComponent implements OnInit, OnChanges {
+export class ListarImportacaoComponent implements OnInit {
 
-  lotes: Array<Lote>;
+  lotes$: Observable<Lote[]>;
+
+  errorMessage = '';
 
   constructor(
     public route: Router,
     private loteService: LoteService
   ) { }
 
-  ngOnChanges(changes: SimpleChanges): void {
-    this.loteService.obterLotes()
-      .subscribe(
-        instructors => this.setLotes(instructors),
-        (error: LoteTrackerError) => this.showErrorMessage(error)
-      );
-  }
-
   ngOnInit() {
-    this.loteService.obterLotes()
-      .subscribe(
-        instructors => this.setLotes(instructors),
-        (error: LoteTrackerError) => this.showErrorMessage(error)
-      );
+    this.obterLotes();
   }
 
-  setLotes(lotes) {
-    this.lotes = lotes;
+  obterLotes() {
+    this.lotes$ = this.loteService.obterLotes()
+      .pipe(
+        catchError(err => {
+          this.errorMessage = err;
+          return EMPTY;
+        })
+      );
   }
 
   removerLote(id: number) {
     this.loteService.removerLote(id)
       .subscribe(
-        lote => console.log(lote),
+        success => this.obterLotes(),
         (error: LoteTrackerError) => this.showErrorMessage(error)
       );
   }

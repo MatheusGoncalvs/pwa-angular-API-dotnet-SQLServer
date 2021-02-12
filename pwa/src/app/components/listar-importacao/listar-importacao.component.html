@@ -2,7 +2,7 @@
     <div class="btn-back">
         <a (click)="voltarPaginaInicial()" mat-raised-button>Página inicial</a>
     </div>
-    <div>
+    <div *ngIf="lotes$ | async as lotes">
         <table class="table">
             <thead>
                 <tr>
